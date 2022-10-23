@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook</title>
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="./fb-body.css">
+  <link rel="stylesheet" href="./fb-modal.css">
+  <link rel="stylesheet" href="./fb-footer.css" />
+
+  <style>
+    .form-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none;
+      background-color: rgba(207, 207, 207, 0.384);
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100%;
+    }
+
+    .form-container {
+      background-color: white;
+      padding-bottom: 20px;
+      border-radius: 5px;
+      margin-top: 100px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- body -->
+  <div class="container body-container">
+    <div class="body">
+      <div class="body-wrap">
+        <div class="left">
+          <h1 class="fb-text">facebook</h1>
+          <h2 class="fb-decription">Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của
+            bạn.</h2>
+        </div>
+        <div class="right">
+          <div class="box">
+            <div class="box-content">
+              <input type="text" class="inputType" placeholder="Email hoặc số điện thoại">
+              <input type="password" class="inputType" placeholder="Mật khẩu">
+              <button class="btn btn-dn">Đăng nhập</button>
+              <a href="#" class="a-text">Quên mật khẩu?</a>
+              <hr style="margin: 10px 0;" size="1px" width="100%">
+              <button class="btn btn-dk" id="signup">Tạo tài khoản mới</button>
+            </div>
+          </div>
+          <div class="right-footer">
+            <a href="">Tạo trang</a>
+            <span>dành cho người nổi tiếng, thương hiệu hoặc doanh nghiệp.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- body -->
+
+  <!-- footer -->
+  <div class="layout">
+    <!-- <div class="content"></div> -->
+
+    <footer class="footer-wrapper">
+      <div class="footer-container">
+        <ul class="footer-selector-list language-list">
+          <li>Tiếng Việt</li>
+          <li><a dir="ltr" title="English (UK)">English (UK)</a></li>
+          <li><a dir="ltr" title="Traditional Chinese (Taiwan)">中文(台灣)</a></li>
+          <li><a dir="ltr" title="Korean">한국어</a></li>
+          <li><a dir="ltr" title="Japanese">日本語</a></li>
+          <li><a dir="ltr" title="French (France)">Français (France)</a>
+          </li>
+          <li><a dir="ltr" title="Thai">ภาษาไทย</a></li>
+          <li><a dir="ltr" title="Spanish">Español</a></li>
+          <li><a dir="ltr" title="Portuguese (Brazil)">Português
+              (Brasil)</a></li>
+          <li><a dir="ltr" title="German">Deutsch</a></li>
+          <li><a dir="ltr" title="Italian">Italiano</a></li>
+          <li>
+            <a role="button" class="footer-more-language-btn" title="Hiển thị thêm ngôn ngữ"><i
+                class="footer-more-language-btn-img"></i></a>
+          </li>
+        </ul>
+        <div class="footer-curve"></div>
+        <div class="footer-extension-list" aria-label="Liên kết trang web Facebook">
+          <ul class="footer-selector-list footer-extension-list">
+            <li><a title="Đăng ký Facebook">Đăng ký</a></li>
+            <li><a title="Đăng nhập Facebook">Đăng nhập</a></li>
+            <li><a title="Xem Messenger.">Messenger</a></li>
+            <li><a title="Facebook Lite dành cho Android.">Facebook Lite</a></li>
+            <li><a title="Lướt xem video của chúng tôi trên tab Watch.">Watch</a></li>
+            <li><a title="Xem những địa điểm nổi tiếng trên Facebook.">Địa điểm</a></li>
+            <li><a title="Xem trò chơi trên Facebook.">Trò chơi</a></li>
+            <li><a title="Mua bán trên Facebook Marketplace.">Marketplace</a></li>
+            <li><a title="Tìm hiểu thêm về Meta Pay" target="_blank">Meta Pay</a></li>
+            <li><a title="Tìm hiểu thêm về Oculus" target="_blank">Oculus</a></li>
+            <li><a title="Tìm hiểu thêm về Facebook Portal" target="_blank">Portal</a></li>
+            <li><a title="Hãy xem Instagram">Instagram</a></li>
+            <li><a title="Xem bản tin trên Bulletin">Bulletin</a></li>
+            <li><a title="Lướt xem thư mục Danh sách địa phương của chúng tôi.">Địa
+                phương</a></li>
+            <li><a title="Quyên góp cho các mục đích có ý nghĩa.">Chiến dịch gây quỹ</a></li>
+            <li><a title="Lướt xem thư mục Dịch vụ Facebook của chúng tôi.">Dịch vụ</a></li>
+            <li><a title="Xem Trung tâm thông tin bỏ phiếu.">Trung tâm thông tin bỏ phiếu</a></li>
+            <li><a title="Khám phá nhóm.">Nhóm</a></li>
+            <li><a title="Đọc blog của chúng tôi, khám phá trung tâm tài nguyên và tìm cơ hội việc làm.">Giới
+                thiệu</a>
+            </li>
+            <li><a title="Quảng cáo trên Facebook.">Tạo quảng cáo</a></li>
+            <li><a title="Tạo Trang">Tạo Trang</a></li>
+            <li><a title="Phát triển trên nền tảng của chúng tôi.">Nhà phát triển</a></li>
+            <li><a title="Tạo bước ngoặt mới trong sự nghiệp của bạn với công ty tuyệt vời của chúng tôi">Tuyển
+                dụng</a>
+            </li>
+            <li><a title="Tìm hiểu về quyền riêng tư của bạn và Facebook">Quyền riêng tư</a></li>
+            <li><a title="Tìm hiểu về cookie và Facebook." data-nocookies="1">Cookie</a></li>
+            <li>
+              <a style="position: relative; padding-right: 16px;" title="Tìm hiểu về Lựa chọn quảng cáo.">Lựa chọn quảng
+                cáo<i class="footer-ads-icon"></i></a>
+            </li>
+            <li><a title="Xem lại điều khoản và chính sách của chúng tôi.">Điều khoản</a></li>
+            <li><a accesskey="0" title="Truy cập Trung tâm trợ giúp của chúng tôi.">Trợ giúp</a>
+            </li>
+            <li><a title="Xem Thông báo Tải thông tin liên hệ lên &amp; đối tượng không phải người dùng.">Tải thông
+                tin
+                liên hệ lên &amp; đối tượng không phải người dùng</a></li>
+            <li><a>Cài đặt</a></li>
+            <li><a title="Xem nhật ký hoạt động">Nhật ký hoạt động</a></li>
+          </ul>
+        </div>
+        <div class="footer-copyright">
+          <div><span> Meta © 2022</span></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- <button id="signup">show/hide</button>
+<div id="signup-modal" style="width: 100px; height: 100px; background: red;"></div> -->
+  <!-- form -->
+  <div id="signup-modal" class="form-wrapper">
+    <div class="form-sign-up form-container">
+      <div class="form-header">
+        <div class="title">
+          <h5>Đăng ký</h5>
+          <span>Nhanh chóng và dễ dàng</span>
+        </div>
+        <div class="exit-icon" id="signup-close">
+          <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/C6QZ-pcv3Bd.png" alt="">
+        </div>
+      </div>
+
+      <div class="form-content">
+        <form action="">
+          <div class="name input-box">
+            <input class="last-name" type="text" name="" id="" placeholder="Họ">
+            <input type="text" name="" id="" placeholder="Tên">
+          </div>
+          <div class="phone-number input-box">
+            <input type="text" placeholder="Số di động hoặc email">
+          </div>
+          <div class="password input-box">
+            <input type="text" placeholder="Mật khẩu mới">
+          </div>
+
+          <label class="bod " for="bod">Ngày sinh</label> <br>
+          <div class="bod-section select-box">
+            <select name="bod" id="">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+
+            <select name="month" id="">
+              <option value="1">Tháng 1</option>
+              <option value="2">Tháng 2</option>
+              <option value="3">Tháng 3</option>
+              <option value="4">Tháng 4</option>
+              <option value="5">Tháng 5</option>
+              <option value="6">Tháng 6</option>
+              <option value="7">Tháng 7</option>
+              <option value="8">Tháng 8</option>
+              <option value="9">Tháng 9</option>
+              <option value="10">Tháng 10</option>
+              <option value="11">Tháng 11</option>
+              <option value="12">Tháng 12</option>
+            </select>
+
+            <select name="year" id="">
+              <option value="1">2022</option>
+              <option value="2">2021</option>
+              <option value="3">2022</option>
+              <option value="4">2019</option>
+              <option value="5">2018</option>
+              <option value="6">2017</option>
+              <option value="7">2016</option>
+              <option value="8">2015</option>
+              <option value="9">2014</option>
+              <option value="10">2013</option>
+              <option value="11">2012</option>
+              <option value="12">2011</option>
+              <option value="13">2010</option>
+              <option value="14">2009</option>
+              <option value="15">2008</option>
+              <option value="16">2007</option>
+              <option value="17">2006</option>
+              <option value="18">2005</option>
+              <option value="19">2004</option>
+              <option value="20">2003</option>
+              <option value="21">2002</option>
+              <option value="22">2001</option>
+              <option value="23">2000</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <span class="bod">Giới tính</span><br>
+            <div class="gender">
+              <div class="input-box-radio">
+                <label for="female">Nữ</label>
+                <input type="radio" name="female">
+              </div>
+              <div class="input-box-radio">
+                <label for="male">Nam</label>
+                <input type="radio" name="male">
+              </div>
+              <div class="input-box-radio">
+                <label for="optional-selection">Tùy chỉnh</label>
+                <input type="radio" name="optional-selection">
+              </div>
+            </div>
+          </div>
+
+          <div class="custom-gender-selection">
+            <div class="prefer-pronoun select-box">
+              <select name="prefer-pronoun" id="" aria-label="Chọn danh xưng">
+                <option value disabled="1" selected>Chọn danh xưng</option>
+                <option value="1">Cô ấy: "Chúc cô ấy sinh nhật vui vẻ!"</option>
+                <option value="2">Anh ấy: "Chúc anh ấy sinh nhật vui vẻ!"</option>
+                <option value="3">Họ: "Chúc họ sinh nhật vui vẻ!"</option>
+              </select>
+            </div>
+            <div class="notice bod">
+              Danh xưng của bạn hiển thị với tất cả mọi người.
+            </div>
+            <div class="optional-input input-box">
+              <input type="text" name="optional-input" id="" placeholder="Giới tính (Không bắt buộc)">
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-footer">
+        <p class="bod">Người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook.
+          <a href="#">Tìm hiểu thêm</a>
+        </p>
+        <p class="bod">Bằng cách nhấp vào Đăng ký, bạn đồng ý với Điều khoản, <a href="#">Chính sách quyền riêng tư</a>
+          và
+          <a href="#">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy
+          nhận bất kỳ lúc nào.
+        </p>
+      </div>
+
+      <div class="form-submit">
+        <button type="submit" class="submit-btn">
+          Đăng ký
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- form -->
+
+  <script>
+    var signupBtn = document.getElementById("signup")
+    var signupClose = document.getElementById("signup-close")
+    signupBtn.onclick = () => {
+      var modal = document.getElementById("signup-modal")
+      if (modal.style.display === "none") {
+        modal.style.display = "block";
+      } else {
+        modal.style.display = "none";
+      }
+    }
+    signupClose.onclick = () => {
+      var modal = document.getElementById("signup-modal")
+      modal.style.display = "none";
+    }
+  </script>
+  <!-- footer -->
+
+</body>

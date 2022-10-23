@@ -1,0 +1,135 @@
+.form-sign-up{
+  width: 432px;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.34;
+}
+
+.exit-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(96, 103, 112);
+  padding: 10px 16px;
+}
+
+.form-content{
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+} 
+
+.name > input{
+  width: 170px;
+}
+
+.phone-number > input, 
+.password > input, 
+.optional-input >input
+{
+  width: 375px;
+}
+
+.title > h5{
+  font-size: 32px;
+  margin: 4px 0;
+}
+
+.title > span{
+  font-size: 15px;
+  color: rgb(96, 103, 112);
+}
+
+.last-name{
+  margin-right: 10px;
+}
+
+.input-box > input {
+  padding: 11px;
+  border-radius: 6px;
+  background-color: rgb(245, 246, 247);
+  border: 1px solid #ccd0d5;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.bod{
+  line-height: 20px;
+  font-size: 12px;
+  color: #606770;
+}
+
+.bod-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-box > select{
+  padding: 11px;
+  border-radius: 6px;
+  border: 1px solid #ccd0d5;
+  margin-bottom: 0px 20px 0px 8px;
+  font-size: 15px;
+  width: 125px;
+}
+
+.input-box-radio{
+  padding: 0 10px 0 10px;
+  line-height: 36px;
+  color: #1c1e21;
+  border: 1px solid #ccd0d5 !important;
+  width: 105px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gender{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.prefer-pronoun > select{
+  width: 400px !important;
+  padding-right: 20px;
+  padding-left: 8px;
+}
+
+.form-footer{
+  margin: 0 16px;
+}
+
+.submit-btn{
+  background-color: #00a400;
+  padding: 0 32px;
+  font-size: 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  height: 36px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  min-width: 194px;
+  text-align: center;
+}
+
+.form-submit{
+  display: flex;
+  justify-content: center;
+}

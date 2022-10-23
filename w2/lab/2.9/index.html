@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="index.php">
+
+        <label for="name">Name: </label>
+        <input id="name" name="name" type="text">
+        <br/>
+
+        <label for="class">Class: </label>
+        <input id="class" name="class" type="text">
+        <br/>
+
+        <label for="uni">University: </label>
+        <input id="uni" name="uni" type="text">
+        <br/>
+
+        <label>Hobby: </label>
+        <label for="A">A</label>
+        <input type="checkbox" name="hobs[]" id="A" value="A">
+        <label for="B">B</label>
+        <input type="checkbox" name="hobs[]" id="B" value="B">
+        <br/>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
