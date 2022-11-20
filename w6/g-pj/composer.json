@@ -1,0 +1,16 @@
+{
+    "name": "hahunavth/covid-qr-gen",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hahunavth\\CovidQrGen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hahunavth",
+            "email": "vuthanhha.2001@gmail.com"
+        }
+    ],
+    "require": {}
+}
